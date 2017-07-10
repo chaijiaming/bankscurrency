@@ -1,0 +1,3220 @@
+.page-overview .section-banks .logo-image {
+    text-indent: -9999px;
+}
+
+.page-overview .section-banks .section-block.participating-banks { margin-bottom:50px; }
+
+.page-overview .section-banks .section-block .participating-banks {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.page-overview .section-banks .section-block.divider {
+    padding-bottom:60px;
+}
+
+.page-overview .section-banks .logo-visa {
+    background-repeat: no-repeat;
+    background-size: 165px 95px;
+    height: 95px;
+    width: 165px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("https://images.apple.com/cn/apple-pay/images/unionpay_large.png");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 144dppx) {
+    .page-overview .section-banks .logo-visa {
+        background-image: url("https://images.apple.com/cn/apple-pay/images/unionpay_large_2x.png");
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .page-overview .section-banks .logo-visa {
+        background-size: 117px 67px;
+        height: 67px;
+        width: 117px;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: url("https://images.apple.com/cn/apple-pay/images/unionpay_medium.png");
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 144dpi), only screen and (max-width: 1068px) and (min-resolution: 144dppx) {
+    .page-overview .section-banks .logo-visa {
+        background-image: url("https://images.apple.com/cn/apple-pay/images/unionpay_medium_2x.png");
+    }
+}
+
+@media only screen and (max-width: 735px) and (max-device-width: 768px) {
+    .page-overview .section-banks .logo-visa {
+        background-size: 125px 72px;
+        height: 72px;
+        width: 111.1111%;
+        margin-left: -5.5556%;
+        margin-right: -5.5556%;
+        background-position: center top;
+        background-image: url("https://images.apple.com/cn/apple-pay/images/unionpay_small.png");
+    }
+}
+
+@media only screen and (max-width: 735px) and (max-device-width: 768px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (max-device-width: 768px) and (min-resolution: 144dpi), only screen and (max-width: 735px) and (max-device-width: 768px) and (min-resolution: 144dppx) {
+    .page-overview .section-banks .logo-visa {
+        background-image: url("https://images.apple.com/cn/apple-pay/images/unionpay_small_2x.png");
+    }
+}
+
+
+.page-overview .section-banks .image-wallet-icon {
+    background-repeat: no-repeat;
+    background-size: 83px 53px;
+    height: 53px;
+    width: 83px;
+    background-image: url("https://images.apple.com/cn/apple-pay/images/overview/wallet_icon_large.png");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
+    .page-overview .section-banks .image-wallet-icon {
+        background-image: url("https://images.apple.com/cn/apple-pay/images/overview/wallet_icon_large_2x.png");
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .page-overview .section-banks .image-wallet-icon {
+        background-size: 59px 38px;
+        height: 38px;
+        width: 59px;
+        background-image: url("https://images.apple.com/cn/apple-pay/images/overview/wallet_icon_medium.png");
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 144dpi), only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 144), only screen and (max-width: 1068px) and (min-resolution: 144dppx) {
+    .page-overview .section-get .image-wallet-icon {
+        background-image: url("https://images.apple.com/cn/apple-pay/images/overview/wallet_icon_medium_2x.png");
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .page-overview .section-banks .image-wallet-icon {
+        background-size: 64px 41px;
+        height: 41px;
+        width: 64px;
+        background-image: url("https://images.apple.com/cn/apple-pay/images/overview/wallet_icon_small.png");
+    }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 144dpi), only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 144), only screen and (max-width: 735px) and (min-resolution: 144dppx) {
+    .page-overview .section-banks .image-wallet-icon {
+        background-image: url("https://images.apple.com/cn/apple-pay/images/overview/wallet_icon_small_2x.png");
+    }
+}
+
+/*Banks Logo*/
+.page-overview .section-banks .partners .column, .page-overview .section-banks .coming-soon .column {
+    margin-top: 55px;
+}
+
+/* AMERICAN EXPRESS */
+
+.page-apple-pay .section-banks .logo-abc,
+.page-apple-pay #banks .logo-abc,
+.page-overview .section-banks .logo-abc {
+    background-repeat: no-repeat;
+    background-size: 172px 95px;
+    height: 95px;
+    width: 172px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("https://images.apple.com/cn/apple-pay/shared/images/abc_large.jpg")
+}
+
+@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (min-resolution: 144dppx) {
+    .page-apple-pay .section-banks .logo-abc,
+    .page-apple-pay #banks .logo-abc,
+    .page-overview .section-banks .logo-abc {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/abc_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .page-overview .section-banks .logo-abc {
+        background-size: 133px 72px;
+        height: 72px;
+        width: 133px;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/abc_medium.jpg")
+    }
+}
+
+
+
+@media only screen and (max-width: 1023px) {
+    .page-apple-pay .section-banks .logo-abc,
+    .page-overview .section-banks .logo-abc {
+        background-size: 133px 72px;
+        height: 72px;
+        width: 133px;
+        margin-left: auto;
+        margin-right: auto
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .page-apple-pay #banks .logo-abc,
+    .page-overview .section-banks .logo-abc {
+        background-size: 133px 72px;
+        height: 72px;
+        width: 133px;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/abc_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-apple-pay .section-banks .logo-abc {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/abc_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1023px) and (min-resolution: 144dpi), only screen and (max-width: 1023px) and (min-resolution: 144dppx) {
+    .page-apple-pay .section-banks .logo-abc {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/abc_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1024px) and (min-resolution: 144dpi), only screen and (max-width: 1024px) and (min-resolution: 144dppx) {
+    .page-apple-pay #banks .logo-abc {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/abc_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 144dpi), only screen and (max-width: 1068px) and (min-resolution: 144dppx) {
+    .page-overview .section-banks .logo-abc {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/abc_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) and (max-device-width: 768px) {
+    .page-apple-pay #banks .logo-am-ex,
+    .page-overview .section-banks .logo-abc {
+        background-size: 133px 72px;
+        height: 72px;
+        width: 133px;
+        background-position: center top;
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/abc_xsmall.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-apple-pay .section-banks .logo-abc {
+        background-size: 133px 72px;
+        height: 72px;
+        width: 133px;
+        margin-left: auto;
+        margin-right: auto
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-apple-pay .section-banks .logo-abc {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/abc_xsmall.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 767px) and (min-resolution: 144dpi), only screen and (max-width: 767px) and (min-resolution: 144dppx) {
+    html.touch .page-apple-pay .section-banks .logo-abc {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/abc_xsmall_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) and (max-device-width: 768px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (max-device-width: 768px) and (min-resolution: 144dpi), only screen and (max-width: 735px) and (max-device-width: 768px) and (min-resolution: 144dppx) {
+    .page-apple-pay #banks .logo-abc,
+    .page-overview .section-banks .logo-abc {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/abc_xsmall_2x.jpg")
+    }
+}
+
+
+
+/* FIRST DIRECT */
+
+.page-apple-pay .section-banks .logo-gzcb,
+.page-apple-pay #banks .logo-gzcb,
+.page-overview .section-banks .logo-gzcb {
+    background-repeat: no-repeat;
+    background-size: 172px 95px;
+    height: 95px;
+    width: 172px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("https://images.apple.com/cn/apple-pay/shared/images/gzcb_large.jpg")
+}
+
+@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (min-resolution: 144dppx) {
+    .page-apple-pay .section-banks .logo-gzcb,
+    .page-apple-pay #banks .logo-gzcb,
+    .page-overview .section-banks .logo-gzcb {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/gzcb_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .page-overview .section-banks .logo-gzcb {
+        background-size: 133px 72px;
+        height: 72px;
+        width: 133px;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/gzcb_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-apple-pay .section-banks .logo-gzcb,
+    .page-overview .section-banks .logo-gzcb {
+        background-size: 133px 72px;
+        height: 72px;
+        width: 133px;
+        margin-left: auto;
+        margin-right: auto
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .page-apple-pay #banks .logo-gzcb,
+    .page-overview .section-banks .logo-gzcb {
+        background-size: 133px 72px;
+        height: 72px;
+        width: 133px;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/gzcb_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-apple-pay .section-banks .logo-gzcb {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/gzcb_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1023px) and (min-resolution: 144dpi), only screen and (max-width: 1023px) and (min-resolution: 144dppx) {
+    .page-apple-pay .section-banks .logo-gzcb {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/gzcb_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1024px) and (min-resolution: 144dpi), only screen and (max-width: 1024px) and (min-resolution: 144dppx) {
+    .page-apple-pay #banks .logo-gzcb {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/gzcb_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 144dpi), only screen and (max-width: 1068px) and (min-resolution: 144dppx) {
+    .page-overview .section-banks .logo-gzcb {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/gzcb_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) and (max-device-width: 768px) {
+    .page-apple-pay #banks .logo-am-ex,
+    .page-overview .section-banks .logo-gzcb {
+        background-size: 133px 72px;
+        height: 72px;
+        width: 133px;
+        background-position: center top;
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/gzcb_xsmall.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-apple-pay .section-banks .logo-gzcb {
+        background-size: 133px 72px;
+        height: 72px;
+        width: 133px;
+        margin-left: auto;
+        margin-right: auto
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-apple-pay .section-banks .logo-gzcb {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/gzcb_xsmall.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 767px) and (min-resolution: 144dpi), only screen and (max-width: 767px) and (min-resolution: 144dppx) {
+    html.touch .page-apple-pay .section-banks .logo-gzcb {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/gzcb_xsmall_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) and (max-device-width: 768px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (max-device-width: 768px) and (min-resolution: 144dpi), only screen and (max-width: 735px) and (max-device-width: 768px) and (min-resolution: 144dppx) {
+    .page-apple-pay #banks .logo-gzcb,
+    .page-overview .section-banks .logo-gzcb {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/gzcb_xsmall_2x.jpg")
+    }
+}
+
+
+
+
+/* FIRST DIRECT */
+
+.page-apple-pay .section-banks .logo-bos,
+.page-apple-pay #banks .logo-bos,
+.page-overview .section-banks .logo-bos {
+    background-repeat: no-repeat;
+    background-size: 172px 95px;
+    height: 95px;
+    width: 172px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("https://images.apple.com/cn/apple-pay/shared/images/bos_large.jpg")
+}
+
+@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (min-resolution: 144dppx) {
+    .page-apple-pay .section-banks .logo-bos,
+    .page-apple-pay #banks .logo-bos,
+    .page-overview .section-banks .logo-bos {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/bos_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .page-overview .section-banks .logo-bos {
+        background-size: 133px 72px;
+        height: 72px;
+        width: 133px;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/bos_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-apple-pay .section-banks .logo-bos,
+    .page-overview .section-banks .logo-bos {
+        background-size: 133px 72px;
+        height: 72px;
+        width: 133px;
+        margin-left: auto;
+        margin-right: auto
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .page-apple-pay #banks .logo-bos,
+    .page-overview .section-banks .logo-bos {
+        background-size: 133px 72px;
+        height: 72px;
+        width: 133px;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/bos_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-apple-pay .section-banks .logo-bos {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/bos_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1023px) and (min-resolution: 144dpi), only screen and (max-width: 1023px) and (min-resolution: 144dppx) {
+    .page-apple-pay .section-banks .logo-bos {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/bos_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1024px) and (min-resolution: 144dpi), only screen and (max-width: 1024px) and (min-resolution: 144dppx) {
+    .page-apple-pay #banks .logo-bos {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/bos_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 144dpi), only screen and (max-width: 1068px) and (min-resolution: 144dppx) {
+    .page-overview .section-banks .logo-bos {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/bos_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) and (max-device-width: 768px) {
+    .page-apple-pay #banks .logo-am-ex,
+    .page-overview .section-banks .logo-bos {
+        background-size: 133px 72px;
+        height: 72px;
+        width: 133px;
+        background-position: center top;
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/bos_xsmall.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-apple-pay .section-banks .logo-bos {
+        background-size: 133px 72px;
+        height: 72px;
+        width: 133px;
+        margin-left: auto;
+        margin-right: auto
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-apple-pay .section-banks .logo-bos {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/bos_xsmall.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 767px) and (min-resolution: 144dpi), only screen and (max-width: 767px) and (min-resolution: 144dppx) {
+    html.touch .page-apple-pay .section-banks .logo-bos {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/bos_xsmall_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) and (max-device-width: 768px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (max-device-width: 768px) and (min-resolution: 144dpi), only screen and (max-width: 735px) and (max-device-width: 768px) and (min-resolution: 144dppx) {
+    .page-apple-pay #banks .logo-bos,
+    .page-overview .section-banks .logo-bos {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/bos_xsmall_2x.jpg")
+    }
+}
+
+
+
+
+
+/* HSBC */
+
+.page-apple-pay .section-banks .logo-ceb,
+.page-apple-pay #banks .logo-ceb,
+.page-overview .section-banks .logo-ceb {
+    background-repeat: no-repeat;
+    background-size: 172px 95px;
+    height: 95px;
+    width: 172px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("https://images.apple.com/cn/apple-pay/shared/images/ceb_large.jpg")
+}
+
+@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (min-resolution: 144dppx) {
+    .page-apple-pay .section-banks .logo-ceb,
+    .page-apple-pay #banks .logo-ceb,
+    .page-overview .section-banks .logo-ceb {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/ceb_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .page-overview .section-banks .logo-ceb {
+        background-size: 133px 72px;
+        height: 72px;
+        width: 133px;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/ceb_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-apple-pay .section-banks .logo-ceb,
+    .page-overview .section-banks .logo-ceb {
+        background-size: 133px 72px;
+        height: 72px;
+        width: 133px;
+        margin-left: auto;
+        margin-right: auto
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .page-apple-pay #banks .logo-ceb,
+    .page-overview .section-banks .logo-ceb {
+        background-size: 133px 72px;
+        height: 72px;
+        width: 133px;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/ceb_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-apple-pay .section-banks .logo-ceb {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/ceb_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1023px) and (min-resolution: 144dpi), only screen and (max-width: 1023px) and (min-resolution: 144dppx) {
+    .page-apple-pay .section-banks .logo-ceb {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/ceb_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1024px) and (min-resolution: 144dpi), only screen and (max-width: 1024px) and (min-resolution: 144dppx) {
+    .page-apple-pay #banks .logo-ceb {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/ceb_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 144dpi), only screen and (max-width: 1068px) and (min-resolution: 144dppx) {
+    .page-overview .section-banks .logo-ceb {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/ceb_medium_2x.jpg")
+    }
+}
+
+
+@media only screen and (max-width: 735px) and (max-device-width: 768px) {
+    .page-apple-pay #banks .logo-am-ex,
+    .page-overview .section-banks .logo-ceb {
+        background-size: 133px 72px;
+        height: 72px;
+        width: 133px;
+        background-position: center top;
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/ceb_xsmall.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-apple-pay .section-banks .logo-ceb {
+        background-size: 133px 72px;
+        height: 72px;
+        width: 133px;
+        margin-left: auto;
+        margin-right: auto
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-apple-pay .section-banks .logo-ceb {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/ceb_xsmall.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 767px) and (min-resolution: 144dpi), only screen and (max-width: 767px) and (min-resolution: 144dppx) {
+    html.touch .page-apple-pay .section-banks .logo-ceb {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/ceb_xsmall_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) and (max-device-width: 768px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (max-device-width: 768px) and (min-resolution: 144dpi), only screen and (max-width: 735px) and (max-device-width: 768px) and (min-resolution: 144dppx) {
+    .page-apple-pay #banks .logo-ceb,
+    .page-overview .section-banks .logo-ceb {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/ceb_xsmall_2x.jpg")
+    }
+}
+
+
+
+
+
+
+/* NATIONWIDE */
+
+.page-apple-pay .section-banks .logo-cmb,
+.page-apple-pay #banks .logo-cmb,
+.page-overview .section-banks .logo-cmb {
+    background-repeat: no-repeat;
+    background-size: 172px 95px;
+    height: 95px;
+    width: 172px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("https://images.apple.com/cn/apple-pay/shared/images/cmb_large.jpg")
+}
+
+@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (min-resolution: 144dppx) {
+    .page-apple-pay .section-banks .logo-cmb,
+    .page-apple-pay #banks .logo-cmb,
+    .page-overview .section-banks .logo-cmb {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/cmb_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .page-overview .section-banks .logo-cmb {
+        background-size: 133px 72px;
+        height: 72px;
+        width: 133px;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/cmb_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-apple-pay .section-banks .logo-cmb,
+    .page-overview .section-banks .logo-cmb {
+        background-size: 133px 72px;
+        height: 72px;
+        width: 133px;
+        margin-left: auto;
+        margin-right: auto
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .page-apple-pay #banks .logo-cmb,
+    .page-overview .section-banks .logo-cmb {
+        background-size: 133px 72px;
+        height: 72px;
+        width: 133px;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/cmb_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-apple-pay .section-banks .logo-cmb {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/cmb_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1023px) and (min-resolution: 144dpi), only screen and (max-width: 1023px) and (min-resolution: 144dppx) {
+    .page-apple-pay .section-banks .logo-cmb {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/cmb_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1024px) and (min-resolution: 144dpi), only screen and (max-width: 1024px) and (min-resolution: 144dppx) {
+    .page-apple-pay #banks .logo-cmb {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/cmb_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 144dpi), only screen and (max-width: 1068px) and (min-resolution: 144dppx) {
+    .page-overview .section-banks .logo-cmb {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/cmb_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) and (max-device-width: 768px) {
+    .page-apple-pay #banks .logo-am-ex,
+    .page-overview .section-banks .logo-cmb {
+        background-size: 133px 72px;
+        height: 72px;
+        width: 133px;
+        background-position: center top;
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/cmb_xsmall.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-apple-pay .section-banks .logo-cmb {
+        background-size: 133px 72px;
+        height: 72px;
+        width: 133px;
+        margin-left: auto;
+        margin-right: auto
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-apple-pay .section-banks .logo-cmb {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/cmb_xsmall.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 767px) and (min-resolution: 144dpi), only screen and (max-width: 767px) and (min-resolution: 144dppx) {
+    html.touch .page-apple-pay .section-banks .logo-cmb {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/cmb_xsmall_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) and (max-device-width: 768px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (max-device-width: 768px) and (min-resolution: 144dpi), only screen and (max-width: 735px) and (max-device-width: 768px) and (min-resolution: 144dppx) {
+    .page-apple-pay #banks .logo-cmb,
+    .page-overview .section-banks .logo-cmb {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/cmb_xsmall_2x.jpg")
+    }
+}
+
+
+
+
+
+
+
+/* NATWEST */
+
+.page-apple-pay .section-banks .logo-cmbc,
+.page-apple-pay #banks .logo-cmbc,
+.page-overview .section-banks .logo-cmbc {
+    background-repeat: no-repeat;
+    background-size: 172px 95px;
+    height: 95px;
+    width: 172px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("https://images.apple.com/cn/apple-pay/shared/images/cmbc_large.jpg")
+}
+
+@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (min-resolution: 144dppx) {
+    .page-apple-pay .section-banks .logo-cmbc,
+    .page-apple-pay #banks .logo-cmbc,
+    .page-overview .section-banks .logo-cmbc {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/cmbc_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .page-overview .section-banks .logo-cmbc {
+        background-size: 133px 72px;
+        height: 72px;
+        width: 133px;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/cmbc_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-apple-pay .section-banks .logo-cmbc,
+    .page-overview .section-banks .logo-cmbc {
+        background-size: 133px 72px;
+        height: 72px;
+        width: 133px;
+        margin-left: auto;
+        margin-right: auto
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .page-apple-pay #banks .logo-cmbc,
+    .page-overview .section-banks .logo-cmbc {
+        background-size: 133px 72px;
+        height: 72px;
+        width: 133px;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/cmbc_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-apple-pay .section-banks .logo-cmbc {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/cmbc_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1023px) and (min-resolution: 144dpi), only screen and (max-width: 1023px) and (min-resolution: 144dppx) {
+    .page-apple-pay .section-banks .logo-cmbc {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/cmbc_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1024px) and (min-resolution: 144dpi), only screen and (max-width: 1024px) and (min-resolution: 144dppx) {
+    .page-apple-pay #banks .logo-cmbc {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/cmbc_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 144dpi), only screen and (max-width: 1068px) and (min-resolution: 144dppx) {
+    .page-overview .section-banks .logo-cmbc {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/cmbc_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) and (max-device-width: 768px) {
+    .page-apple-pay #banks .logo-am-ex,
+    .page-overview .section-banks .logo-cmbc {
+        background-size: 133px 72px;
+        height: 72px;
+        width: 133px;
+        background-position: center top;
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/cmbc_xsmall.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-apple-pay .section-banks .logo-cmbc {
+        background-size: 133px 72px;
+        height: 72px;
+        width: 133px;
+        margin-left: auto;
+        margin-right: auto
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-apple-pay .section-banks .logo-cmbc {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/cmbc_xsmall.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 767px) and (min-resolution: 144dpi), only screen and (max-width: 767px) and (min-resolution: 144dppx) {
+    html.touch .page-apple-pay .section-banks .logo-cmbc {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/cmbc_xsmall_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) and (max-device-width: 768px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (max-device-width: 768px) and (min-resolution: 144dpi), only screen and (max-width: 735px) and (max-device-width: 768px) and (min-resolution: 144dppx) {
+    .page-apple-pay #banks .logo-cmbc,
+    .page-overview .section-banks .logo-cmbc {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/cmbc_xsmall_2x.jpg")
+    }
+}
+
+/* RBS */
+
+.page-apple-pay .section-banks .logo-icbc,
+.page-apple-pay #banks .logo-icbc,
+.page-overview .section-banks .logo-icbc {
+    background-repeat: no-repeat;
+    background-size: 179px 95px;
+    height: 95px;
+    width: 179px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("https://images.apple.com/cn/apple-pay/shared/images/icbc_large.jpg")
+}
+
+@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (min-resolution: 144dppx) {
+    .page-apple-pay .section-banks .logo-icbc,
+    .page-apple-pay #banks .logo-icbc,
+    .page-overview .section-banks .logo-icbc {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/icbc_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .page-overview .section-banks .logo-icbc {
+        background-size: 139px 72px;
+        height: 72px;
+        width: 139px;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/icbc_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-apple-pay .section-banks .logo-icbc,
+    .page-overview .section-banks .logo-icbc {
+        background-size: 139px 72px;
+        height: 72px;
+        width: 139px;
+        margin-left: auto;
+        margin-right: auto
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .page-apple-pay #banks .logo-icbc,
+    .page-overview .section-banks .logo-icbc {
+        background-size: 139px 72px;
+        height: 72px;
+        width: 139px;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/icbc_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-apple-pay .section-banks .logo-icbc {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/icbc_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1023px) and (min-resolution: 144dpi), only screen and (max-width: 1023px) and (min-resolution: 144dppx) {
+    .page-apple-pay .section-banks .logo-icbc {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/icbc_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1024px) and (min-resolution: 144dpi), only screen and (max-width: 1024px) and (min-resolution: 144dppx) {
+    .page-apple-pay #banks .logo-icbc {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/icbc_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 144dpi), only screen and (max-width: 1068px) and (min-resolution: 144dppx) {
+    .page-overview .section-banks .logo-icbc {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/icbc_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) and (max-device-width: 768px) {
+    .page-apple-pay #banks .logo-am-ex,
+    .page-overview .section-banks .logo-icbc {
+        background-size: 139px 72px;
+        height: 72px;
+        width: 139px;
+        background-position: center top;
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/icbc_xsmall.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-apple-pay .section-banks .logo-icbc {
+        background-size: 139px 72px;
+        height: 72px;
+        width: 139px;
+        margin-left: auto;
+        margin-right: auto
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-apple-pay .section-banks .logo-icbc {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/icbc_xsmall.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 767px) and (min-resolution: 144dpi), only screen and (max-width: 767px) and (min-resolution: 144dppx) {
+    html.touch .page-apple-pay .section-banks .logo-icbc {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/icbc_xsmall_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) and (max-device-width: 768px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (max-device-width: 768px) and (min-resolution: 144dpi), only screen and (max-width: 735px) and (max-device-width: 768px) and (min-resolution: 144dppx) {
+    .page-apple-pay #banks .logo-icbc,
+    .page-overview .section-banks .logo-icbc {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/icbc_xsmall_2x.jpg")
+    }
+}
+
+/* SANTANDER */
+
+.page-apple-pay .section-banks .logo-pab,
+.page-apple-pay #banks .logo-pab,
+.page-overview .section-banks .logo-pab {
+    background-repeat: no-repeat;
+    background-size: 172px 95px;
+    height: 95px;
+    width: 172px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("https://images.apple.com/cn/apple-pay/shared/images/pab_large.jpg")
+}
+
+@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (min-resolution: 144dppx) {
+    .page-apple-pay .section-banks .logo-pab,
+    .page-apple-pay #banks .logo-pab,
+    .page-overview .section-banks .logo-pab {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/pab_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .page-overview .section-banks .logo-pab {
+        background-size: 133px 72px;
+        height: 72px;
+        width: 133px;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/pab_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-apple-pay .section-banks .logo-pab,
+    .page-overview .section-banks .logo-pab {
+        background-size: 133px 72px;
+        height: 72px;
+        width: 133px;
+        margin-left: auto;
+        margin-right: auto
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .page-apple-pay #banks .logo-pab,
+    .page-overview .section-banks .logo-pab {
+        background-size: 133px 72px;
+        height: 72px;
+        width: 133px;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/pab_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-apple-pay .section-banks .logo-pab {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/pab_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1023px) and (min-resolution: 144dpi), only screen and (max-width: 1023px) and (min-resolution: 144dppx) {
+    .page-apple-pay .section-banks .logo-pab {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/pab_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1024px) and (min-resolution: 144dpi), only screen and (max-width: 1024px) and (min-resolution: 144dppx) {
+    .page-apple-pay #banks .logo-pab {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/pab_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 144dpi), only screen and (max-width: 1068px) and (min-resolution: 144dppx) {
+    .page-overview .section-banks .logo-pab {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/pab_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) and (max-device-width: 768px) {
+    .page-apple-pay #banks .logo-am-ex,
+    .page-overview .section-banks .logo-pab {
+        background-size: 133px 72px;
+        height: 72px;
+        width: 133px;
+        background-position: center top;
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/pab_xsmall.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-apple-pay .section-banks .logo-pab {
+        background-size: 133px 72px;
+        height: 72px;
+        width: 133px;
+        margin-left: auto;
+        margin-right: auto
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-apple-pay .section-banks .logo-pab {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/pab_xsmall.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 767px) and (min-resolution: 144dpi), only screen and (max-width: 767px) and (min-resolution: 144dppx) {
+    html.touch .page-apple-pay .section-banks .logo-pab {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/pab_xsmall_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) and (max-device-width: 768px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (max-device-width: 768px) and (min-resolution: 144dpi), only screen and (max-width: 735px) and (max-device-width: 768px) and (min-resolution: 144dppx) {
+    .page-apple-pay #banks .logo-pab,
+    .page-overview .section-banks .logo-pab {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/pab_xsmall_2x.jpg")
+    }
+}
+
+/* BANK OF SCOTLAND */
+
+.page-apple-pay .section-banks .logo-boc,
+.page-apple-pay #banks .logo-boc,
+.page-overview .section-banks .logo-boc {
+    background-repeat: no-repeat;
+    background-size: 172px 95px;
+    height: 95px;
+    width: 172px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("https://images.apple.com/cn/apple-pay/shared/images/boc_large.jpg")
+}
+
+@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (min-resolution: 144dppx) {
+    .page-apple-pay .section-banks .logo-boc,
+    .page-apple-pay #banks .logo-boc,
+    .page-overview .section-banks .logo-boc {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/boc_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .page-overview .section-banks .logo-boc {
+        background-size: 133px 72px;
+        height: 72px;
+        width: 133px;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/boc_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-apple-pay .section-banks .logo-boc,
+    .page-overview .section-banks .logo-boc {
+        background-size: 133px 72px;
+        height: 72px;
+        width: 133px;
+        margin-left: auto;
+        margin-right: auto
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .page-apple-pay #banks .logo-boc,
+    .page-overview .section-banks .logo-boc {
+        background-size: 133px 72px;
+        height: 72px;
+        width: 133px;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/boc_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-apple-pay .section-banks .logo-boc {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/boc_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1023px) and (min-resolution: 144dpi), only screen and (max-width: 1023px) and (min-resolution: 144dppx) {
+    .page-apple-pay .section-banks .logo-boc {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/boc_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1024px) and (min-resolution: 144dpi), only screen and (max-width: 1024px) and (min-resolution: 144dppx) {
+    .page-apple-pay #banks .logo-boc {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/boc_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 144dpi), only screen and (max-width: 1068px) and (min-resolution: 144dppx) {
+    .page-overview .section-banks .logo-boc {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/boc_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) and (max-device-width: 768px) {
+    .page-apple-pay #banks .logo-am-ex,
+    .page-overview .section-banks .logo-boc {
+        background-size: 133px 72px;
+        height: 72px;
+        width: 133px;
+        background-position: center top;
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/boc_xsmall.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-apple-pay .section-banks .logo-boc {
+        background-size: 125px 72px;
+        height: 72px;
+        width: 125px;
+        margin-left: auto;
+        margin-right: auto
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-apple-pay .section-banks .logo-boc {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/boc_xsmall.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 767px) and (min-resolution: 144dpi), only screen and (max-width: 767px) and (min-resolution: 144dppx) {
+    html.touch .page-apple-pay .section-banks .logo-boc {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/boc_xsmall_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) and (max-device-width: 768px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (max-device-width: 768px) and (min-resolution: 144dpi), only screen and (max-width: 735px) and (max-device-width: 768px) and (min-resolution: 144dppx) {
+    .page-apple-pay #banks .logo-boc,
+    .page-overview .section-banks .logo-boc {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/boc_xsmall_2x.jpg")
+    }
+}
+
+/* HALIFAX */
+
+.page-apple-pay .section-banks .logo-ccb,
+.page-apple-pay #banks .logo-ccb,
+.page-overview .section-banks .logo-ccb {
+    background-repeat: no-repeat;
+    background-size: 172px 95px;
+    height: 95px;
+    width: 172px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("https://images.apple.com/cn/apple-pay/shared/images/ccb_large.jpg")
+}
+
+@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (min-resolution: 144dppx) {
+    .page-apple-pay .section-banks .logo-ccb,
+    .page-apple-pay #banks .logo-ccb,
+    .page-overview .section-banks .logo-ccb {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/ccb_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .page-overview .section-banks .logo-ccb {
+        background-size: 133px 72px;
+        height: 72px;
+        width: 133px;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/ccb_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-apple-pay .section-banks .logo-ccb,
+    .page-overview .section-banks .logo-ccb {
+        background-size: 133px 72px;
+        height: 72px;
+        width: 133px;
+        margin-left: auto;
+        margin-right: auto
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .page-apple-pay #banks .logo-ccb,
+    .page-overview .section-banks .logo-ccb {
+        background-size: 133px 72px;
+        height: 72px;
+        width: 133px;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/ccb_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-apple-pay .section-banks .logo-ccb {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/ccb_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1023px) and (min-resolution: 144dpi), only screen and (max-width: 1023px) and (min-resolution: 144dppx) {
+    .page-apple-pay .section-banks .logo-ccb {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/ccb_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1024px) and (min-resolution: 144dpi), only screen and (max-width: 1024px) and (min-resolution: 144dppx) {
+    .page-apple-pay #banks .logo-ccb {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/ccb_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 144dpi), only screen and (max-width: 1068px) and (min-resolution: 144dppx) {
+    .page-overview .section-banks .logo-ccb {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/ccb_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) and (max-device-width: 768px) {
+    .page-apple-pay #banks .logo-am-ex,
+    .page-overview .section-banks .logo-ccb {
+        background-size: 133px 72px;
+        height: 72px;
+        width: 133px;
+        background-position: center top;
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/ccb_xsmall.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-apple-pay .section-banks .logo-ccb {
+        background-size: 133px 72px;
+        height: 72px;
+        width: 133px;
+        margin-left: auto;
+        margin-right: auto
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-apple-pay .section-banks .logo-ccb {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/ccb_xsmall.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 767px) and (min-resolution: 144dpi), only screen and (max-width: 767px) and (min-resolution: 144dppx) {
+    html.touch .page-apple-pay .section-banks .logo-ccb {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/ccb_xsmall_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) and (max-device-width: 768px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (max-device-width: 768px) and (min-resolution: 144dpi), only screen and (max-width: 735px) and (max-device-width: 768px) and (min-resolution: 144dppx) {
+    .page-apple-pay #banks .logo-ccb,
+    .page-overview .section-banks .logo-ccb {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/ccb_xsmall_2x.jpg")
+    }
+}
+
+
+
+
+
+/* LLOYDS BANK */
+
+.page-apple-pay .section-banks .logo-cgb,
+.page-apple-pay #banks .logo-cgb,
+.page-overview .section-banks .logo-cgb {
+    background-repeat: no-repeat;
+    background-size: 172px 95px;
+    height: 95px;
+    width: 172px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("https://images.apple.com/cn/apple-pay/shared/images/cgb_large.jpg")
+}
+
+@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (min-resolution: 144dppx) {
+    .page-apple-pay .section-banks .logo-cgb,
+    .page-apple-pay #banks .logo-cgb,
+    .page-overview .section-banks .logo-cgb {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/cgb_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .page-overview .section-banks .logo-cgb {
+        background-size: 133px 72px;
+        height: 72px;
+        width: 133px;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/cgb_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-apple-pay .section-banks .logo-cgb,
+    .page-overview .section-banks .logo-cgb {
+        background-size: 133px 72px;
+        height: 72px;
+        width: 133px;
+        margin-left: auto;
+        margin-right: auto
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .page-apple-pay #banks .logo-cgb,
+    .page-overview .section-banks .logo-cgb {
+        background-size: 133px 72px;
+        height: 72px;
+        width: 133px;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/cgb_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-apple-pay .section-banks .logo-cgb {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/cgb_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1023px) and (min-resolution: 144dpi), only screen and (max-width: 1023px) and (min-resolution: 144dppx) {
+    .page-apple-pay .section-banks .logo-cgb {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/cgb_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1024px) and (min-resolution: 144dpi), only screen and (max-width: 1024px) and (min-resolution: 144dppx) {
+    .page-apple-pay #banks .logo-cgb {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/cgb_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 144dpi), only screen and (max-width: 1068px) and (min-resolution: 144dppx) {
+    .page-overview .section-banks .logo-cgb {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/cgb_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) and (max-device-width: 768px) {
+    .page-apple-pay #banks .logo-am-ex,
+    .page-overview .section-banks .logo-cgb {
+        background-size: 133px 72px;
+        height: 72px;
+        width: 133px;
+        background-position: center top;
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/cgb_xsmall.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-apple-pay .section-banks .logo-cgb {
+        background-size: 133px 72px;
+        height: 72px;
+        width: 133px;
+        margin-left: auto;
+        margin-right: auto
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-apple-pay .section-banks .logo-cgb {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/cgb_xsmall.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 767px) and (min-resolution: 144dpi), only screen and (max-width: 767px) and (min-resolution: 144dppx) {
+    html.touch .page-apple-pay .section-banks .logo-cgb {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/cgb_xsmall_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) and (max-device-width: 768px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (max-device-width: 768px) and (min-resolution: 144dpi), only screen and (max-width: 735px) and (max-device-width: 768px) and (min-resolution: 144dppx) {
+    .page-apple-pay #banks .logo-cgb,
+    .page-overview .section-banks .logo-cgb {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/cgb_xsmall_2x.jpg")
+    }
+}
+
+/* MS BANK */
+
+.page-apple-pay .section-banks .logo-cib,
+.page-apple-pay #banks .logo-cib,
+.page-overview .section-banks .logo-cib {
+    background-repeat: no-repeat;
+    background-size: 172px 95px;
+    height: 95px;
+    width: 172px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("https://images.apple.com/cn/apple-pay/shared/images/cib_large.jpg")
+}
+
+@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (min-resolution: 144dppx) {
+    .page-apple-pay .section-banks .logo-cib,
+    .page-apple-pay #banks .logo-cib,
+    .page-overview .section-banks .logo-cib {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/cib_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .page-overview .section-banks .logo-cib {
+        background-size: 133px 72px;
+        height: 72px;
+        width: 133px;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/cib_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-apple-pay .section-banks .logo-cib,
+    .page-overview .section-banks .logo-cib {
+        background-size: 133px 72px;
+        height: 72px;
+        width: 133px;
+        margin-left: auto;
+        margin-right: auto
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .page-apple-pay #banks .logo-cib,
+    .page-overview .section-banks .logo-cib {
+        background-size: 133px 72px;
+        height: 72px;
+        width: 133px;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/cib_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-apple-pay .section-banks .logo-cib {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/cib_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1023px) and (min-resolution: 144dpi), only screen and (max-width: 1023px) and (min-resolution: 144dppx) {
+    .page-apple-pay .section-banks .logo-cib {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/cib_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1024px) and (min-resolution: 144dpi), only screen and (max-width: 1024px) and (min-resolution: 144dppx) {
+    .page-apple-pay #banks .logo-cib {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/cib_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 144dpi), only screen and (max-width: 1068px) and (min-resolution: 144dppx) {
+    .page-overview .section-banks .logo-cib {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/cib_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) and (max-device-width: 768px) {
+    .page-apple-pay #banks .logo-am-ex,
+    .page-overview .section-banks .logo-cib {
+        background-size: 133px 72px;
+        height: 72px;
+        width: 133px;
+        background-position: center top;
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/cib_xsmall.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-apple-pay .section-banks .logo-cib {
+        background-size: 133px 72px;
+        height: 72px;
+        width: 133px;
+        margin-left: auto;
+        margin-right: auto
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-apple-pay .section-banks .logo-cib {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/cib_xsmall.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 767px) and (min-resolution: 144dpi), only screen and (max-width: 767px) and (min-resolution: 144dppx) {
+    html.touch .page-apple-pay .section-banks .logo-cib {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/cib_xsmall_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) and (max-device-width: 768px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (max-device-width: 768px) and (min-resolution: 144dpi), only screen and (max-width: 735px) and (max-device-width: 768px) and (min-resolution: 144dppx) {
+    .page-apple-pay #banks .logo-cib,
+    .page-overview .section-banks .logo-cib {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/cib_xsmall_2x.jpg")
+    }
+}
+
+/* MBNA */
+
+.page-apple-pay .section-banks .logo-citic,
+.page-apple-pay #banks .logo-citic,
+.page-overview .section-banks .logo-citic {
+    background-repeat: no-repeat;
+    background-size: 172px 95px;
+    height: 95px;
+    width: 172px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("https://images.apple.com/cn/apple-pay/shared/images/citic_large.jpg")
+}
+
+@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (min-resolution: 144dppx) {
+    .page-apple-pay .section-banks .logo-citic,
+    .page-apple-pay #banks .logo-citic,
+    .page-overview .section-banks .logo-citic {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/citic_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .page-overview .section-banks .logo-citic {
+        background-size: 133px 72px;
+        height: 72px;
+        width: 133px;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/citic_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-apple-pay .section-banks .logo-citic,
+    .page-overview .section-banks .logo-citic {
+        background-size: 133px 72px;
+        height: 72px;
+        width: 133px;
+        margin-left: auto;
+        margin-right: auto
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .page-apple-pay #banks .logo-citic,
+    .page-overview .section-banks .logo-citic {
+        background-size: 133px 72px;
+        height: 72px;
+        width: 133px;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/citic_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-apple-pay .section-banks .logo-citic {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/citic_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1023px) and (min-resolution: 144dpi), only screen and (max-width: 1023px) and (min-resolution: 144dppx) {
+    .page-apple-pay .section-banks .logo-citic {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/citic_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1024px) and (min-resolution: 144dpi), only screen and (max-width: 1024px) and (min-resolution: 144dppx) {
+    .page-apple-pay #banks .logo-citic {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/citic_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 144dpi), only screen and (max-width: 1068px) and (min-resolution: 144dppx) {
+    .page-overview .section-banks .logo-citic {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/citic_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) and (max-device-width: 768px) {
+    .page-apple-pay #banks .logo-am-ex,
+    .page-overview .section-banks .logo-citic {
+        background-size: 133px 72px;
+        height: 72px;
+        width: 133px;
+        background-position: center top;
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/citic_xsmall.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-apple-pay .section-banks .logo-citic {
+        background-size: 133px 72px;
+        height: 72px;
+        width: 133px;
+        margin-left: auto;
+        margin-right: auto
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-apple-pay .section-banks .logo-citic {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/citic_xsmall.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 767px) and (min-resolution: 144dpi), only screen and (max-width: 767px) and (min-resolution: 144dppx) {
+    html.touch .page-apple-pay .section-banks .logo-citic {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/citic_xsmall_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) and (max-device-width: 768px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (max-device-width: 768px) and (min-resolution: 144dpi), only screen and (max-width: 735px) and (max-device-width: 768px) and (min-resolution: 144dppx) {
+    .page-apple-pay #banks .logo-citic,
+    .page-overview .section-banks .logo-citic {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/citic_xsmall_2x.jpg")
+    }
+}
+
+
+/* tsb */
+
+.page-apple-pay .section-banks .logo-tsb,
+.page-apple-pay #banks .logo-tsb,
+.page-overview .section-banks .logo-tsb {
+    background-repeat: no-repeat;
+    background-size: 165px 95px;
+    height: 95px;
+    width: 165px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("https://images.apple.com/cn/apple-pay/shared/images/tsb_large.jpg")
+}
+
+@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (min-resolution: 144dppx) {
+    .page-apple-pay .section-banks .logo-tsb,
+    .page-apple-pay #banks .logo-tsb,
+    .page-overview .section-banks .logo-tsb {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/tsb_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .page-overview .section-banks .logo-tsb {
+        background-size: 118px 68px;
+        height: 68px;
+        width: 118px;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/tsb_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-apple-pay .section-banks .logo-tsb,
+    .page-overview .section-banks .logo-tsb {
+        background-size: 118px 68px;
+        height: 68px;
+        width: 118px;
+        margin-left: auto;
+        margin-right: auto
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .page-apple-pay #banks .logo-tsb,
+    .page-overview .section-banks .logo-tsb {
+        background-size: 118px 68px;
+        height: 68px;
+        width: 118px;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/tsb_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-apple-pay .section-banks .logo-tsb {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/tsb_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1023px) and (min-resolution: 144dpi), only screen and (max-width: 1023px) and (min-resolution: 144dppx) {
+    .page-apple-pay .section-banks .logo-tsb {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/tsb_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1024px) and (min-resolution: 144dpi), only screen and (max-width: 1024px) and (min-resolution: 144dppx) {
+    .page-apple-pay #banks .logo-tsb {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/tsb_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 144dpi), only screen and (max-width: 1068px) and (min-resolution: 144dppx) {
+    .page-overview .section-banks .logo-tsb {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/tsb_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) and (max-device-width: 768px) {
+    .page-apple-pay #banks .logo-am-ex,
+    .page-overview .section-banks .logo-tsb {
+        background-size: 125px 72px;
+        height: 72px;
+        width: 111.1111%;
+        background-position: center top;
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/tsb_xsmall.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-apple-pay .section-banks .logo-tsb {
+        background-size: 125px 72px;
+        height: 72px;
+        width: 125px;
+        margin-left: auto;
+        margin-right: auto
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-apple-pay .section-banks .logo-tsb {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/tsb_xsmall.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 767px) and (min-resolution: 144dpi), only screen and (max-width: 767px) and (min-resolution: 144dppx) {
+    html.touch .page-apple-pay .section-banks .logo-tsb {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/tsb_xsmall_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) and (max-device-width: 768px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (max-device-width: 768px) and (min-resolution: 144dpi), only screen and (max-width: 735px) and (max-device-width: 768px) and (min-resolution: 144dppx) {
+    .page-apple-pay #banks .logo-tsb,
+    .page-overview .section-banks .logo-tsb {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/tsb_xsmall_2x.jpg")
+    }
+}
+
+/* psbc */
+
+.page-apple-pay .section-banks .logo-psbc,
+.page-apple-pay #banks .logo-psbc,
+.page-overview .section-banks .logo-psbc {
+    background-repeat: no-repeat;
+    background-size: 179px 95px;
+    height: 95px;
+    width: 179px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("https://images.apple.com/cn/apple-pay/shared/images/psbc_large.jpg")
+}
+
+@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (min-resolution: 144dppx) {
+    .page-apple-pay .section-banks .logo-psbc,
+    .page-apple-pay #banks .logo-psbc,
+    .page-overview .section-banks .logo-psbc {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/psbc_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .page-overview .section-banks .logo-psbc {
+        background-size: 139px 72px;
+        height: 72px;
+        width: 139px;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/psbc_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-apple-pay .section-banks .logo-psbc,
+    .page-overview .section-banks .logo-psbc {
+        background-size: 139px 72px;
+        height: 72px;
+        width: 139px;
+        margin-left: auto;
+        margin-right: auto
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .page-apple-pay #banks .logo-psbc,
+    .page-overview .section-banks .logo-psbc {
+        background-size: 139px 72px;
+        height: 72px;
+        width: 139px;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/psbc_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-apple-pay .section-banks .logo-psbc {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/psbc_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1023px) and (min-resolution: 144dpi), only screen and (max-width: 1023px) and (min-resolution: 144dppx) {
+    .page-apple-pay .section-banks .logo-psbc {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/psbc_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1024px) and (min-resolution: 144dpi), only screen and (max-width: 1024px) and (min-resolution: 144dppx) {
+    .page-apple-pay #banks .logo-psbc {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/psbc_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 144dpi), only screen and (max-width: 1068px) and (min-resolution: 144dppx) {
+    .page-overview .section-banks .logo-psbc {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/psbc_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) and (max-device-width: 768px) {
+    .page-apple-pay #banks .logo-psbc,
+    .page-overview .section-banks .logo-psbc {
+        background-size: 132px 72px;
+        height: 72px;
+        width: 139px;
+        background-position: center top;
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/psbc_xsmall.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-apple-pay .section-banks .logo-psbc {
+        background-size: 139px 72px;
+        height: 72px;
+        width: 139px;
+        margin-left: auto;
+        margin-right: auto
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-apple-pay .section-banks .logo-psbc {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/psbc_xsmall.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 767px) and (min-resolution: 144dpi), only screen and (max-width: 767px) and (min-resolution: 144dppx) {
+    html.touch .page-apple-pay .section-banks .logo-psbc {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/psbc_xsmall_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) and (max-device-width: 768px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (max-device-width: 768px) and (min-resolution: 144dpi), only screen and (max-width: 735px) and (max-device-width: 768px) and (min-resolution: 144dppx) {
+    .page-apple-pay #banks .logo-psbc,
+    .page-overview .section-banks .logo-psbc {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/psbc_xsmall_2x.jpg")
+    }
+}
+
+/* spd */
+
+.page-apple-pay .section-banks .logo-spd,
+.page-apple-pay #banks .logo-spd,
+.page-overview .section-banks .logo-spd {
+    background-repeat: no-repeat;
+    background-size: 172px 95px;
+    height: 95px;
+    width: 172px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("https://images.apple.com/cn/apple-pay/shared/images/spd_large.jpg")
+}
+
+@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (min-resolution: 144dppx) {
+    .page-apple-pay .section-banks .logo-spd,
+    .page-apple-pay #banks .logo-spd,
+    .page-overview .section-banks .logo-spd {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/spd_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .page-overview .section-banks .logo-spd {
+        background-size: 133px 72px;
+        height: 72px;
+        width: 133px;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/spd_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-apple-pay .section-banks .logo-spd,
+    .page-overview .section-banks .logo-spd {
+        background-size: 133px 72px;
+        height: 72px;
+        width: 133px;
+        margin-left: auto;
+        margin-right: auto
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .page-apple-pay #banks .logo-spd,
+    .page-overview .section-banks .logo-spd {
+        background-size: 133px 72px;
+        height: 72px;
+        width: 133px;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/spd_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-apple-pay .section-banks .logo-spd {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/spd_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1023px) and (min-resolution: 144dpi), only screen and (max-width: 1023px) and (min-resolution: 144dppx) {
+    .page-apple-pay .section-banks .logo-spd {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/spd_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1024px) and (min-resolution: 144dpi), only screen and (max-width: 1024px) and (min-resolution: 144dppx) {
+    .page-apple-pay #banks .logo-spd {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/spd_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 144dpi), only screen and (max-width: 1068px) and (min-resolution: 144dppx) {
+    .page-overview .section-banks .logo-spd {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/spd_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) and (max-device-width: 768px) {
+    .page-apple-pay #banks .logo-spd,
+    .page-overview .section-banks .logo-spd {
+        background-size: 133px 72px;
+        height: 72px;
+        width: 133px;
+        background-position: center top;
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/spd_xsmall.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-apple-pay .section-banks .logo-spd {
+        background-size: 139px 72px;
+        height: 72px;
+        width: 133px;
+        margin-left: auto;
+        margin-right: auto
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-apple-pay .section-banks .logo-spd {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/spd_xsmall.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 767px) and (min-resolution: 144dpi), only screen and (max-width: 767px) and (min-resolution: 144dppx) {
+    html.touch .page-apple-pay .section-banks .logo-spd {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/spd_xsmall_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) and (max-device-width: 768px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (max-device-width: 768px) and (min-resolution: 144dpi), only screen and (max-width: 735px) and (max-device-width: 768px) and (min-resolution: 144dppx) {
+    .page-apple-pay #banks .logo-spd,
+    .page-overview .section-banks .logo-spd {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/spd_xsmall_2x.jpg")
+    }
+}
+
+/* hxb */
+
+.page-apple-pay .section-banks .logo-hxb,
+.page-apple-pay #banks .logo-hxb,
+.page-overview .section-banks .logo-hxb {
+    background-repeat: no-repeat;
+    background-size: 172px 95px;
+    height: 95px;
+    width: 172px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("https://images.apple.com/cn/apple-pay/shared/images/hxb_large.jpg")
+}
+
+@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (min-resolution: 144dppx) {
+    .page-apple-pay .section-banks .logo-hxb,
+    .page-apple-pay #banks .logo-hxb,
+    .page-overview .section-banks .logo-hxb {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/hxb_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .page-overview .section-banks .logo-hxb {
+        background-size: 133px 72px;
+        height: 72px;
+        width: 133px;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/hxb_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-apple-pay .section-banks .logo-hxb,
+    .page-overview .section-banks .logo-hxb {
+        background-size: 133px 72px;
+        height: 72px;
+        width: 133px;
+        margin-left: auto;
+        margin-right: auto
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .page-apple-pay #banks .logo-hxb,
+    .page-overview .section-banks .logo-hxb {
+        background-size: 133px 72px;
+        height: 72px;
+        width: 133px;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/hxb_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-apple-pay .section-banks .logo-hxb {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/hxb_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1023px) and (min-resolution: 144dpi), only screen and (max-width: 1023px) and (min-resolution: 144dppx) {
+    .page-apple-pay .section-banks .logo-hxb {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/hxb_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1024px) and (min-resolution: 144dpi), only screen and (max-width: 1024px) and (min-resolution: 144dppx) {
+    .page-apple-pay #banks .logo-hxb {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/hxb_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 144dpi), only screen and (max-width: 1068px) and (min-resolution: 144dppx) {
+    .page-overview .section-banks .logo-hxb {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/hxb_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) and (max-device-width: 768px) {
+    .page-apple-pay #banks .logo-hxb,
+    .page-overview .section-banks .logo-hxb {
+        background-size: 133px 72px;
+        height: 72px;
+        width: 133px;
+        background-position: center top;
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/hxb_xsmall.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-apple-pay .section-banks .logo-hxb {
+        background-size: 139px 72px;
+        height: 72px;
+        width: 133px;
+        margin-left: auto;
+        margin-right: auto
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-apple-pay .section-banks .logo-hxb {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/hxb_xsmall.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 767px) and (min-resolution: 144dpi), only screen and (max-width: 767px) and (min-resolution: 144dppx) {
+    html.touch .page-apple-pay .section-banks .logo-hxb {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/hxb_xsmall_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) and (max-device-width: 768px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (max-device-width: 768px) and (min-resolution: 144dpi), only screen and (max-width: 735px) and (max-device-width: 768px) and (min-resolution: 144dppx) {
+    .page-apple-pay #banks .logo-hxb,
+    .page-overview .section-banks .logo-hxb {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/hxb_xsmall_2x.jpg")
+    }
+}
+
+/* nbcb */
+.page-apple-pay .section-banks .logo-nbcb,
+.page-apple-pay #banks .logo-nbcb,
+.page-overview .section-banks .logo-nbcb {
+    background-repeat: no-repeat;
+    background-size: 172px 95px;
+    height: 95px;
+    width: 172px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("https://images.apple.com/cn/apple-pay/shared/images/nbcb_large.jpg")
+}
+
+@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (min-resolution: 144dppx) {
+    .page-apple-pay .section-banks .logo-nbcb,
+    .page-apple-pay #banks .logo-nbcb,
+    .page-overview .section-banks .logo-nbcb {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/nbcb_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .page-overview .section-banks .logo-nbcb {
+        background-size: 133px 72px;
+        height: 72px;
+        width: 133px;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/nbcb_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-apple-pay .section-banks .logo-nbcb,
+    .page-overview .section-banks .logo-nbcb {
+        background-size: 133px 72px;
+        height: 72px;
+        width: 133px;
+        margin-left: auto;
+        margin-right: auto
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .page-apple-pay #banks .logo-nbcb,
+    .page-overview .section-banks .logo-nbcb {
+        background-size: 133px 72px;
+        height: 72px;
+        width: 133px;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/nbcb_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-apple-pay .section-banks .logo-nbcb {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/nbcb_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1023px) and (min-resolution: 144dpi), only screen and (max-width: 1023px) and (min-resolution: 144dppx) {
+    .page-apple-pay .section-banks .logo-nbcb {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/nbcb_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1024px) and (min-resolution: 144dpi), only screen and (max-width: 1024px) and (min-resolution: 144dppx) {
+    .page-apple-pay #banks .logo-nbcb {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/nbcb_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 144dpi), only screen and (max-width: 1068px) and (min-resolution: 144dppx) {
+    .page-overview .section-banks .logo-nbcb {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/nbcb_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) and (max-device-width: 768px) {
+    .page-apple-pay #banks .logo-am-ex,
+    .page-overview .section-banks .logo-nbcb {
+        background-size: 133px 72px;
+        height: 72px;
+        width: 133px;
+        background-position: center top;
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/nbcb_xsmall.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-apple-pay .section-banks .logo-nbcb {
+        background-size: 133px 72px;
+        height: 72px;
+        width: 133px;
+        margin-left: auto;
+        margin-right: auto
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-apple-pay .section-banks .logo-nbcb {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/nbcb_xsmall.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 767px) and (min-resolution: 144dpi), only screen and (max-width: 767px) and (min-resolution: 144dppx) {
+    html.touch .page-apple-pay .section-banks .logo-nbcb {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/nbcb_xsmall_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) and (max-device-width: 768px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (max-device-width: 768px) and (min-resolution: 144dpi), only screen and (max-width: 735px) and (max-device-width: 768px) and (min-resolution: 144dppx) {
+    .page-apple-pay #banks .logo-nbcb,
+    .page-overview .section-banks .logo-nbcb {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/nbcb_xsmall_2x.jpg")
+    }
+}
+
+/* bob */
+.page-apple-pay .section-banks .logo-bob,
+.page-apple-pay #banks .logo-bob,
+.page-overview .section-banks .logo-bob {
+    background-repeat: no-repeat;
+    background-size: 172px 95px;
+    height: 95px;
+    width: 172px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("https://images.apple.com/cn/apple-pay/shared/images/bob_large.jpg")
+}
+
+@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (min-resolution: 144dppx) {
+    .page-apple-pay .section-banks .logo-bob,
+    .page-apple-pay #banks .logo-bob,
+    .page-overview .section-banks .logo-bob {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/bob_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .page-overview .section-banks .logo-bob {
+        background-size: 133px 72px;
+        height: 72px;
+        width: 133px;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/bob_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-apple-pay .section-banks .logo-bob,
+    .page-overview .section-banks .logo-bob {
+        background-size: 133px 72px;
+        height: 72px;
+        width: 133px;
+        margin-left: auto;
+        margin-right: auto
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .page-apple-pay #banks .logo-bob,
+    .page-overview .section-banks .logo-bob {
+        background-size: 133px 72px;
+        height: 72px;
+        width: 133px;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/bob_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-apple-pay .section-banks .logo-bob {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/bob_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1023px) and (min-resolution: 144dpi), only screen and (max-width: 1023px) and (min-resolution: 144dppx) {
+    .page-apple-pay .section-banks .logo-bob {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/bob_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1024px) and (min-resolution: 144dpi), only screen and (max-width: 1024px) and (min-resolution: 144dppx) {
+    .page-apple-pay #banks .logo-bob {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/bob_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 144dpi), only screen and (max-width: 1068px) and (min-resolution: 144dppx) {
+    .page-overview .section-banks .logo-bob {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/bob_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) and (max-device-width: 768px) {
+    .page-apple-pay #banks .logo-am-ex,
+    .page-overview .section-banks .logo-bob {
+        background-size: 133px 72px;
+        height: 72px;
+        width: 133px;
+        background-position: center top;
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/bob_xsmall.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-apple-pay .section-banks .logo-bob {
+        background-size: 133px 72px;
+        height: 72px;
+        width: 133px;
+        margin-left: auto;
+        margin-right: auto
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-apple-pay .section-banks .logo-bob {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/bob_xsmall.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 767px) and (min-resolution: 144dpi), only screen and (max-width: 767px) and (min-resolution: 144dppx) {
+    html.touch .page-apple-pay .section-banks .logo-bob {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/bob_xsmall_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) and (max-device-width: 768px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (max-device-width: 768px) and (min-resolution: 144dpi), only screen and (max-width: 735px) and (max-device-width: 768px) and (min-resolution: 144dppx) {
+    .page-apple-pay #banks .logo-bob,
+    .page-overview .section-banks .logo-bob {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/bob_xsmall_2x.jpg")
+    }
+}
+
+/* bcm */
+.page-apple-pay .section-banks .logo-bcm,
+.page-apple-pay #banks .logo-bcm,
+.page-overview .section-banks .logo-bcm {
+    background-repeat: no-repeat;
+    background-size: 172px 95px;
+    height: 95px;
+    width: 172px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("https://images.apple.com/cn/apple-pay/shared/images/bcm_large.jpg")
+}
+
+@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (min-resolution: 144dppx) {
+    .page-apple-pay .section-banks .logo-bcm,
+    .page-apple-pay #banks .logo-bcm,
+    .page-overview .section-banks .logo-bcm {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/bcm_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .page-overview .section-banks .logo-bcm {
+        background-size: 133px 72px;
+        height: 72px;
+        width: 133px;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/bcm_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-apple-pay .section-banks .logo-bcm,
+    .page-overview .section-banks .logo-bcm {
+        background-size: 133px 72px;
+        height: 72px;
+        width: 133px;
+        margin-left: auto;
+        margin-right: auto
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .page-apple-pay #banks .logo-bcm,
+    .page-overview .section-banks .logo-bcm {
+        background-size: 133px 72px;
+        height: 72px;
+        width: 133px;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/bcm_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-apple-pay .section-banks .logo-bcm {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/bcm_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1023px) and (min-resolution: 144dpi), only screen and (max-width: 1023px) and (min-resolution: 144dppx) {
+    .page-apple-pay .section-banks .logo-bcm {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/bcm_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1024px) and (min-resolution: 144dpi), only screen and (max-width: 1024px) and (min-resolution: 144dppx) {
+    .page-apple-pay #banks .logo-bcm {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/bcm_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 144dpi), only screen and (max-width: 1068px) and (min-resolution: 144dppx) {
+    .page-overview .section-banks .logo-bcm {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/bcm_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) and (max-device-width: 768px) {
+    .page-apple-pay #banks .logo-am-ex,
+    .page-overview .section-banks .logo-bcm {
+        background-size: 133px 72px;
+        height: 72px;
+        width: 133px;
+        background-position: center top;
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/bcm_xsmall.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-apple-pay .section-banks .logo-bcm {
+        background-size: 133px 72px;
+        height: 72px;
+        width: 133px;
+        margin-left: auto;
+        margin-right: auto
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-apple-pay .section-banks .logo-bcm {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/bcm_xsmall.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 767px) and (min-resolution: 144dpi), only screen and (max-width: 767px) and (min-resolution: 144dppx) {
+    html.touch .page-apple-pay .section-banks .logo-bcm {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/bcm_xsmall_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) and (max-device-width: 768px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (max-device-width: 768px) and (min-resolution: 144dpi), only screen and (max-width: 735px) and (max-device-width: 768px) and (min-resolution: 144dppx) {
+    .page-apple-pay #banks .logo-bcm,
+    .page-overview .section-banks .logo-bcm {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/bcm_xsmall_2x.jpg")
+    }
+}
+
+/* bea */
+.page-apple-pay .section-banks .logo-bea,
+.page-apple-pay #banks .logo-bea,
+.page-overview .section-banks .logo-bea {
+    background-repeat: no-repeat;
+    background-size: 179px 95px;
+    height: 95px;
+    width: 179px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("https://images.apple.com/cn/apple-pay/shared/images/bea_large.png")
+}
+
+@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (min-resolution: 144dppx) {
+    .page-apple-pay .section-banks .logo-bea,
+    .page-apple-pay #banks .logo-bea,
+    .page-overview .section-banks .logo-bea {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/bea_large_2x.png")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .page-overview .section-banks .logo-bea {
+        background-size: 139px 72px;
+        height: 72px;
+        width: 139px;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/bea_medium.png")
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-apple-pay .section-banks .logo-bea,
+    .page-overview .section-banks .logo-bea {
+        background-size: 139px 72px;
+        height: 72px;
+        width: 139px;
+        margin-left: auto;
+        margin-right: auto
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .page-apple-pay #banks .logo-bea,
+    .page-overview .section-banks .logo-bea {
+        background-size: 139px 72px;
+        height: 72px;
+        width: 139px;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/bea_medium.png")
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-apple-pay .section-banks .logo-bea {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/bea_medium.png")
+    }
+}
+
+@media only screen and (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1023px) and (min-resolution: 144dpi), only screen and (max-width: 1023px) and (min-resolution: 144dppx) {
+    .page-apple-pay .section-banks .logo-bea {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/bea_medium_2x.png")
+    }
+}
+
+@media only screen and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1024px) and (min-resolution: 144dpi), only screen and (max-width: 1024px) and (min-resolution: 144dppx) {
+    .page-apple-pay #banks .logo-bea {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/bea_medium_2x.png")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 144dpi), only screen and (max-width: 1068px) and (min-resolution: 144dppx) {
+    .page-overview .section-banks .logo-bea {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/bea_medium_2x.png")
+    }
+}
+
+@media only screen and (max-width: 735px) and (max-device-width: 768px) {
+    .page-apple-pay #banks .logo-am-ex,
+    .page-overview .section-banks .logo-bea {
+        background-size: 139px 72px;
+        height: 72px;
+        width: 139px;
+        background-position: center top;
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/bea_xsmall.png")
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-apple-pay .section-banks .logo-bea {
+        background-size: 139px 72px;
+        height: 72px;
+        width: 139px;
+        margin-left: auto;
+        margin-right: auto
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-apple-pay .section-banks .logo-bea {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/bea_xsmall.png")
+    }
+}
+
+@media only screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 767px) and (min-resolution: 144dpi), only screen and (max-width: 767px) and (min-resolution: 144dppx) {
+    html.touch .page-apple-pay .section-banks .logo-bea {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/bea_xsmall_2x.png")
+    }
+}
+
+@media only screen and (max-width: 735px) and (max-device-width: 768px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (max-device-width: 768px) and (min-resolution: 144dpi), only screen and (max-width: 735px) and (max-device-width: 768px) and (min-resolution: 144dppx) {
+    .page-apple-pay #banks .logo-bob,
+    .page-overview .section-banks .logo-bea {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/bea_xsmall_2x.png")
+    }
+}
+
+/* fubon */
+.page-apple-pay .section-banks .logo-fubon,
+.page-apple-pay #banks .logo-fubon,
+.page-overview .section-banks .logo-fubon {
+    background-repeat: no-repeat;
+    background-size: 172px 95px;
+    height: 95px;
+    width: 172px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("https://images.apple.com/cn/apple-pay/shared/images/fubon_large.jpg")
+}
+
+@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (min-resolution: 144dppx) {
+    .page-apple-pay .section-banks .logo-fubon,
+    .page-apple-pay #banks .logo-fubon,
+    .page-overview .section-banks .logo-fubon {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/fubon_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .page-overview .section-banks .logo-fubon {
+        background-size: 133px 72px;
+        height: 72px;
+        width: 133px;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/fubon_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-apple-pay .section-banks .logo-fubon,
+    .page-overview .section-banks .logo-fubon {
+        background-size: 133px 72px;
+        height: 72px;
+        width: 133px;
+        margin-left: auto;
+        margin-right: auto
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .page-apple-pay #banks .logo-fubon,
+    .page-overview .section-banks .logo-fubon {
+        background-size: 133px 72px;
+        height: 72px;
+        width: 133px;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/fubon_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-apple-pay .section-banks .logo-fubon {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/fubon_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1023px) and (min-resolution: 144dpi), only screen and (max-width: 1023px) and (min-resolution: 144dppx) {
+    .page-apple-pay .section-banks .logo-fubon {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/fubon_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1024px) and (min-resolution: 144dpi), only screen and (max-width: 1024px) and (min-resolution: 144dppx) {
+    .page-apple-pay #banks .logo-fubon {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/fubon_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 144dpi), only screen and (max-width: 1068px) and (min-resolution: 144dppx) {
+    .page-overview .section-banks .logo-fubon {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/fubon_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) and (max-device-width: 768px) {
+    .page-apple-pay #banks .logo-am-ex,
+    .page-overview .section-banks .logo-fubon {
+        background-size: 133px 72px;
+        height: 72px;
+        width: 133px;
+        background-position: center top;
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/fubon_xsmall.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-apple-pay .section-banks .logo-fubon {
+        background-size: 133px 72px;
+        height: 72px;
+        width: 133px;
+        margin-left: auto;
+        margin-right: auto
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-apple-pay .section-banks .logo-fubon {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/fubon_xsmall.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 767px) and (min-resolution: 144dpi), only screen and (max-width: 767px) and (min-resolution: 144dppx) {
+    html.touch .page-apple-pay .section-banks .logo-fubon {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/fubon_xsmall_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) and (max-device-width: 768px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (max-device-width: 768px) and (min-resolution: 144dpi), only screen and (max-width: 735px) and (max-device-width: 768px) and (min-resolution: 144dppx) {
+    .page-apple-pay #banks .logo-fubon,
+    .page-overview .section-banks .logo-fubon {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/fubon_xsmall_2x.jpg")
+    }
+}
+
+/* jiangsu */
+.page-apple-pay .section-banks .logo-jiangsu,
+.page-apple-pay #banks .logo-jiangsu,
+.page-overview .section-banks .logo-jiangsu {
+    background-repeat: no-repeat;
+    background-size: 172px 95px;
+    height: 95px;
+    width: 172px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("https://images.apple.com/cn/apple-pay/shared/images/jiangsu_large.jpg")
+}
+
+@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (min-resolution: 144dppx) {
+    .page-apple-pay .section-banks .logo-jiangsu,
+    .page-apple-pay #banks .logo-jiangsu,
+    .page-overview .section-banks .logo-jiangsu {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/jiangsu_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .page-overview .section-banks .logo-jiangsu {
+        background-size: 133px 72px;
+        height: 72px;
+        width: 133px;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/jiangsu_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-apple-pay .section-banks .logo-jiangsu,
+    .page-overview .section-banks .logo-jiangsu {
+        background-size: 133px 72px;
+        height: 72px;
+        width: 133px;
+        margin-left: auto;
+        margin-right: auto
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .page-apple-pay #banks .logo-jiangsu,
+    .page-overview .section-banks .logo-jiangsu {
+        background-size: 133px 72px;
+        height: 72px;
+        width: 133px;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/jiangsu_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-apple-pay .section-banks .logo-jiangsu {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/jiangsu_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1023px) and (min-resolution: 144dpi), only screen and (max-width: 1023px) and (min-resolution: 144dppx) {
+    .page-apple-pay .section-banks .logo-jiangsu {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/jiangsu_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1024px) and (min-resolution: 144dpi), only screen and (max-width: 1024px) and (min-resolution: 144dppx) {
+    .page-apple-pay #banks .logo-jiangsu {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/jiangsu_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 144dpi), only screen and (max-width: 1068px) and (min-resolution: 144dppx) {
+    .page-overview .section-banks .logo-jiangsu {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/jiangsu_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) and (max-device-width: 768px) {
+    .page-apple-pay #banks .logo-am-ex,
+    .page-overview .section-banks .logo-jiangsu {
+        background-size: 133px 72px;
+        height: 72px;
+        width: 133px;
+        background-position: center top;
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/jiangsu_xsmall.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-apple-pay .section-banks .logo-jiangsu {
+        background-size: 133px 72px;
+        height: 72px;
+        width: 133px;
+        margin-left: auto;
+        margin-right: auto
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-apple-pay .section-banks .logo-jiangsu {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/jiangsu_xsmall.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 767px) and (min-resolution: 144dpi), only screen and (max-width: 767px) and (min-resolution: 144dppx) {
+    html.touch .page-apple-pay .section-banks .logo-jiangsu {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/jiangsu_xsmall_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) and (max-device-width: 768px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (max-device-width: 768px) and (min-resolution: 144dpi), only screen and (max-width: 735px) and (max-device-width: 768px) and (min-resolution: 144dppx) {
+    .page-apple-pay #banks .logo-jiangsu,
+    .page-overview .section-banks .logo-jiangsu {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/jiangsu_xsmall_2x.jpg")
+    }
+}
+
+/* nanjing */
+.page-apple-pay .section-banks .logo-nanjing,
+.page-apple-pay #banks .logo-nanjing,
+.page-overview .section-banks .logo-nanjing {
+    background-repeat: no-repeat;
+    background-size: 172px 95px;
+    height: 95px;
+    width: 172px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("https://images.apple.com/cn/apple-pay/shared/images/nanjing_large.jpg")
+}
+
+@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (min-resolution: 144dppx) {
+    .page-apple-pay .section-banks .logo-nanjing,
+    .page-apple-pay #banks .logo-nanjing,
+    .page-overview .section-banks .logo-nanjing {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/nanjing_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .page-overview .section-banks .logo-nanjing {
+        background-size: 133px 72px;
+        height: 72px;
+        width: 133px;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/nanjing_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-apple-pay .section-banks .logo-nanjing,
+    .page-overview .section-banks .logo-nanjing {
+        background-size: 133px 72px;
+        height: 72px;
+        width: 133px;
+        margin-left: auto;
+        margin-right: auto
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .page-apple-pay #banks .logo-nanjing,
+    .page-overview .section-banks .logo-nanjing {
+        background-size: 133px 72px;
+        height: 72px;
+        width: 133px;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/nanjing_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-apple-pay .section-banks .logo-nanjing {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/nanjing_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1023px) and (min-resolution: 144dpi), only screen and (max-width: 1023px) and (min-resolution: 144dppx) {
+    .page-apple-pay .section-banks .logo-nanjing {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/nanjing_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1024px) and (min-resolution: 144dpi), only screen and (max-width: 1024px) and (min-resolution: 144dppx) {
+    .page-apple-pay #banks .logo-nanjing {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/nanjing_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 144dpi), only screen and (max-width: 1068px) and (min-resolution: 144dppx) {
+    .page-overview .section-banks .logo-nanjing {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/nanjing_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) and (max-device-width: 768px) {
+    .page-apple-pay #banks .logo-am-ex,
+    .page-overview .section-banks .logo-nanjing {
+        background-size: 133px 72px;
+        height: 72px;
+        width: 133px;
+        background-position: center top;
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/nanjing_xsmall.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-apple-pay .section-banks .logo-nanjing {
+        background-size: 133px 72px;
+        height: 72px;
+        width: 133px;
+        margin-left: auto;
+        margin-right: auto
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-apple-pay .section-banks .logo-nanjing {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/nanjing_xsmall.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 767px) and (min-resolution: 144dpi), only screen and (max-width: 767px) and (min-resolution: 144dppx) {
+    html.touch .page-apple-pay .section-banks .logo-nanjing {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/nanjing_xsmall_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) and (max-device-width: 768px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (max-device-width: 768px) and (min-resolution: 144dpi), only screen and (max-width: 735px) and (max-device-width: 768px) and (min-resolution: 144dppx) {
+    .page-apple-pay #banks .logo-nanjing,
+    .page-overview .section-banks .logo-nanjing {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/nanjing_xsmall_2x.jpg")
+    }
+}
+
+
+/*gzcb*/
+
+.page-apple-pay .section-banks .logo-hsbc,
+.page-apple-pay #banks .logo-hsbc,
+.page-overview .section-banks .logo-hsbc {
+    background-repeat: no-repeat;
+    background-size: 172px 95px;
+    height: 95px;
+    width: 172px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("https://images.apple.com/cn/apple-pay/shared/images/hsbc_large.jpg")
+}
+
+@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (min-resolution: 144dppx) {
+    .page-apple-pay .section-banks .logo-hsbc,
+    .page-apple-pay #banks .logo-hsbc,
+    .page-overview .section-banks .logo-hsbc {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/hsbc_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .page-overview .section-banks .logo-hsbc {
+        background-size: 133px 72px;
+        height: 72px;
+        width: 133px;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/hsbc_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-apple-pay .section-banks .logo-hsbc,
+    .page-overview .section-banks .logo-hsbc {
+        background-size: 133px 72px;
+        height: 72px;
+        width: 133px;
+        margin-left: auto;
+        margin-right: auto
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .page-apple-pay #banks .logo-hsbc,
+    .page-overview .section-banks .logo-hsbc {
+        background-size: 133px 72px;
+        height: 72px;
+        width: 133px;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/hsbc_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-apple-pay .section-banks .logo-hsbc {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/hsbc_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1023px) and (min-resolution: 144dpi), only screen and (max-width: 1023px) and (min-resolution: 144dppx) {
+    .page-apple-pay .section-banks .logo-hsbc {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/hsbc_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1024px) and (min-resolution: 144dpi), only screen and (max-width: 1024px) and (min-resolution: 144dppx) {
+    .page-apple-pay #banks .logo-hsbc {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/hsbc_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 144dpi), only screen and (max-width: 1068px) and (min-resolution: 144dppx) {
+    .page-overview .section-banks .logo-hsbc {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/hsbc_medium_2x.jpg")
+    }
+}
+
+
+/*webank*/
+
+.page-apple-pay .section-banks .logo-webank,
+.page-apple-pay #banks .logo-webank,
+.page-overview .section-banks .logo-webank {
+    background-repeat: no-repeat;
+    background-size: 172px 95px;
+    height: 95px;
+    width: 172px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("https://images.apple.com/cn/apple-pay/shared/images/webank_large.jpg")
+}
+
+@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (min-resolution: 144dppx) {
+    .page-apple-pay .section-banks .logo-webank,
+    .page-apple-pay #banks .logo-webank,
+    .page-overview .section-banks .logo-webank {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/webank_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .page-overview .section-banks .logo-webank {
+        background-size: 133px 72px;
+        height: 72px;
+        width: 133px;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/webank_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-apple-pay .section-banks .logo-webank,
+    .page-overview .section-banks .logo-webank {
+        background-size: 133px 72px;
+        height: 72px;
+        width: 133px;
+        margin-left: auto;
+        margin-right: auto
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .page-apple-pay #banks .logo-webank,
+    .page-overview .section-banks .logo-webank {
+        background-size: 133px 72px;
+        height: 72px;
+        width: 133px;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/webank_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-apple-pay .section-banks .logo-webank {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/webank_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1023px) and (min-resolution: 144dpi), only screen and (max-width: 1023px) and (min-resolution: 144dppx) {
+    .page-apple-pay .section-banks .logo-webank {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/webank_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1024px) and (min-resolution: 144dpi), only screen and (max-width: 1024px) and (min-resolution: 144dppx) {
+    .page-apple-pay #banks .logo-webank {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/webank_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 144dpi), only screen and (max-width: 1068px) and (min-resolution: 144dppx) {
+    .page-overview .section-banks .logo-webank {
+        background-image: url("https://images.apple.com/cn/apple-pay/shared/images/webank_medium_2x.jpg")
+    }
+}
+/*------------------------------------*\
+   END LOCAL SCREENS
+\*------------------------------------*/
+
+
+/*Banks logo*/
+
+.page-overview .section-banks .row.rewards {
+    width: 65%;
+    text-align: left;
+    margin: 80px auto 80px;
+}
+
+@media only screen and (max-width: 735px) {
+    .page-overview .section-banks .row.rewards {
+        width: auto;
+        margin-top: 40px;
+    }
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : portrait) {
+    .page-overview .section-banks .row.rewards p { margin-left: 20px; }
+}
+
+
+@media screen and (max-width: 735px){
+
+    .page-overview .section-banks h2, .page-overview .section-banks p.copy { text-align:center; }
+}
+
+@media screen and (max-width: 735px){
+
+    .page-overview .section-banks h2.smallleft, .page-overview .section-banks p.copy.smallleft { text-align:left; }
+}
+
+.page-overview .section-get-logo-copy-block .link-copy {
+    padding-top: 13px;
+    margin-left: 0;
+}
+a.more.add-margin{
+    margin-right: 24px;
+}
