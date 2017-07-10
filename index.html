@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
     <link rel="stylesheet" href="participatio-banks.css" type="text/css">
 
 
@@ -22,11 +23,14 @@
 
     <style media="screen">
       body {
+        display: block;
+        width: 100%;
         color: rgba(0,0,0,0.87);
         font-family: Roboto, Helvetica, Arial, sans-serif;
         margin: 0;
-        padding: 0px;
-        background-size: 720px 2437px;
+        padding: 0;
+        border: 0;
+        background-size: 719px 2430px;
         background-image: url("images/backslant-home-repeat.svg");
         background-repeat: repeat;
       }
@@ -84,6 +88,7 @@
         color: white;
         padding: 16px;
         border-radius: 4px;
+        margin-top: 30px;
       }
       .message-b:hover{
         background-color: #344433;
@@ -96,8 +101,7 @@
         margin: 10px auto 2px;
         padding: 15px 12px;
         border-radius: 3px;
-        box-shadow: 0 1px 3px rgba(0,0,0,0.12),
-        0 1px 2px rgba(0,0,0,0.24);
+
       }
       .image-h2{
         color: #ffa100;
@@ -132,7 +136,7 @@
 
       .display{
         background: white;
-        width: 90%;
+        width: 70%;
         max-width: 1920px;
         margin: 30px auto 16px;
         padding: 32px 24px;
@@ -173,7 +177,7 @@
         height: 54px;
         margin-right: auto;
         margin-left: auto;
-        padding-right: 25px;
+        padding-right: 23px;
       }
       #load {
         color: rgba(0,0,0,0.4);
@@ -195,6 +199,12 @@
         body {
           border-top: 8px solid #ffa100;
           box-shadow: none
+        }
+        .message{
+          width: 75%;
+        }
+        .display{
+          width: 85%;
         }
         .display img {
           width: 130px;
@@ -227,7 +237,7 @@
       <h2 >欢迎</h2>
       <h1 >服务器后端已经调试成功</h1>
       <p >你现在依旧能看到此页面，因为网站还在制作。如有对此域名疑问，请联系开发者。</p>
-      <a target="_blank" href="mailto:jiamingchai@yahoo.comm">发送E-mail给开发者</a>
+      <a target="_blank" href="mailto:jiamingchai@yahoo.com">发送E-mail给开发者</a>
       <b class="message-b" onclick="closeMessageBlock()" >关闭此消息</b>
     </div>
 
@@ -266,9 +276,14 @@
       <p class="stat" >*数据来源: XE.com</p>
     </div>
     <div class="display">
-      <h2>GitHub</h2>
-      <h1>开源是未来的科技的本质</h1>
-      <p>银汇率不仅仅是一个即使信息站点，还会对过去呈现大体趋势图。不仅有汇率，美金指数，原油指数，等待着您的发现！</p>
+      <h2>想成为其中一员？</h2>
+      <h1>当然是开源</h1>
+      <p>不用担心，所有代码、图片、素材，均已上传至GitHub。</p>
+        <div class="image">
+          <img style=" width: 210px; height: 210px;" src="images/github.png" alt="Github">
+        </div>
+      <a class="message" href="https://github.com/chaijiaming/bankscurrency" style="background: #7f44d9; max-width: 300px">Fork参与项目</a>
+      <a class="message" href="https://github.com/chaijiaming" style="background: #039be5; max-width: 300px">在GitHub上关注开发者</a>
       <p class="stat">github.com</p>
     </div>
     <div class="image">
