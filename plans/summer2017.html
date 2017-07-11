@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+
+
+    <title>2017暑假旅行计划</title>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js" ></script>
+
+    <style media="screen">
+        body {
+            display: block;
+            width: 100%;
+            color: rgba(0,0,0,0.87);
+            font-family: Roboto, Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            border: 0;
+            background-size: 718px 2430px;
+            background-image: url("../images/backslant-home-repeat.svg");
+            background-repeat: repeat;
+        }
+
+        .message{
+            width: 80%;
+            display: block;
+            background: white;
+            max-width: 800px;
+            margin: 5px auto 30px;
+            padding: 32px 24px; border-radius: 3px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+        }
+        .message h2{
+            color: #ee4217;
+            font-weight: bold;
+            font-size: 16px;
+            margin: 0 0 8px;
+        }
+        .message h1{font-size: 22px;
+            font-weight: 300;
+            color: rgba(0,0,0,0.6);
+            margin: 0 0 16px;
+        }
+        .message p{
+            line-height: 140%;
+            margin: 16px 0 24px;
+            font-size: 14px;
+        }
+        .message a{
+            box-shadow: 0 1px 3px rgba(0,0,0,0.12),
+            0 1px 2px rgba(0,0,0,0.24);
+            display: inline-block;
+            text-align: center;
+            background: #039be5;
+            text-transform: uppercase;
+            text-decoration: none;
+            color: white;
+            padding: 16px;
+            border-radius: 4px;
+        }
+
+        .message a:hover{
+            background-color: #344433;
+        }
+
+        .message-b {
+            box-shadow: 0 1px 3px rgba(0,0,0,0.12),
+            0 1px 2px rgba(0,0,0,0.24);
+            display: inline-block;
+            text-align: center;
+            background: #db0f2a;
+            text-transform: uppercase;
+            text-decoration: none;
+            color: white;
+            padding: 16px;
+            border-radius: 4px;
+            margin-top: 0px;
+        }
+        .message-b:hover{
+            background-color: #344433;
+        }
+
+        .image{
+            alignment: center;
+            background: white;
+            max-width: 90%;
+            margin: 10px auto 2px;
+            padding: 15px 12px;
+            border-radius: 3px;
+
+        }
+        .image-h2{
+            color: #ffa100;
+            font-weight: bold;
+            font-size: 16px;
+            margin: 0 0 3px
+        }
+
+        .navigation ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #6e42e5;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.12),
+            0 1px 2px rgba(0,0,0,0.24);
+        }
+        .navigation li{
+            float: left;
+        }
+        .navigation li a{
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none
+        }
+
+        .navigation li a:hover{
+            background-color: #111;
+        }
+
+        .display{
+            background: white;
+            width: 70%;
+            max-width: 1920px;
+            margin: 30px auto 16px;
+            padding: 32px 24px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.12),
+            0 1px 2px rgba(0,0,0,0.24);
+        }
+        .display h2{
+            color: #ee4217;
+            font-weight: bold;
+            font-size: 20px;
+            margin: 0 0 8px;
+        }
+        .display h1{
+            font-size: 22px;
+            font-weight: 300;
+            color: rgba(0,0,0,0.6);
+            margin: 0 0 16px;
+        }
+        .display p{
+            line-height: 140%;
+            margin: 16px 0 24px;
+            font-size: 14px;
+        }
+        .display a{
+            display: block;
+            text-align: center;
+            background: #039be5;
+            text-decoration: none;
+            color: white;
+            padding: 16px;
+            border-radius: 4px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.12),
+            0 1px 2px rgba(0,0,0,0.24);
+        }
+        .display img{
+            width: 120px;
+            height: 74px;
+            margin-right: auto;
+            margin-left: auto;
+            padding-right: 0px;
+        }
+        #load {
+            color: rgba(0,0,0,0.4);
+            text-align: center;
+            font-size: 13px;
+        }
+        .stat{
+            color: rgba(0,0,0,0.4);
+            text-align: center;
+            font-size: 13px;
+        }
+
+        .fade {
+            opacity: 0;
+            transition: 1000ms;
+        }
+        .display-none{
+            display: none;
+        }
+        .imageContainer{
+            width: 100% !important;
+            height: 100% !important;
+            border: 3px !important;
+            max-width: 500px !important;
+        }
+
+        @media (max-width: 600px) {
+            body, .message {
+                margin-top: 0;
+                box-shadow: 0 1px 3px rgba(0,0,0,0.12),
+                0 1px 2px rgba(0,0,0,0.24);
+            }
+            body {
+                border-top: 8px solid #ffa100;
+                box-shadow: none
+            }
+            .message{
+                width: 75%;
+            }
+            .display{
+                width: 85%;
+            }
+            .display img {
+                width: 100%;
+                height: 100%x;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .imageContainer{
+                max-width: 300px !important;
+            }
+        }
+
+
+
+    </style>
+</head>
+<body>
+<div class="navigation">
+    <ul>
+        <li><a href="#home">暑假计划</a></li>
+        <li><a href="#about">7.24-8.20</a></li>
+    </ul>
+</div>
+
+<div class="message">
+    <h2 >提示</h2>
+    <h1 >此计划可能和实际旅程有差别。地图因网络访问可能受限制。</h1>
+    <b class="message-b" onclick="closeMessageBlock()" >知道了</b>
+</div>
+
+<div class="display">
+    <h2>抵达日：7月24日晚上9点 - 7月26日</h2>
+    <h1>Harrisburg</h1>
+    <p>两晚在哈里斯堡，将入住 Harrisburg StayBridge Hotel</p>
+    <a href="https://www.openstreetmap.org/#map=19/40.28988/-76.88642">点此查看酒店地图</a>
+    <div class="image">
+        <img src="../images/harrisburg.jpg" alt="Harrisburg" class="imageContainer">
+    </div>
+    <a style="background-color: #ffa100;display: inline-block; margin-top: 20px;" href="https://goo.gl/maps/eAfLvzrf9MQ2">Penn State Harrisburg 校区</a>
+    <a style="background-color: #ffa100;display: inline-block; margin-top: 20px;" href="https://goo.gl/maps/VX2iCSdnKvs">Silver Sea 餐厅</a>
+    <a style="background-color: #ffa100;display: inline-block; margin-top: 20px;" href="https://goo.gl/maps/B2cBVA3J8ZG2">Hershey Park 娱乐公园</a>
+    <a style="background-color: #ffa100;display: inline-block; margin-top: 20px;" href="https://goo.gl/maps/zJ3dZhGAGP62">Harrisburg 州政府办公室</a>
+
+</div>
+<div class="display">
+    <h2>去主校：7月26日 </h2>
+    <h1>State College</h1>
+    <p>晚上住在市区以北的地方，以便第二天去大峡谷。酒店：Holiday Inn Express & Suites Clearfield </p>
+    <a href="https://goo.gl/maps/sxEcfWbiRWp">点此查看酒店地图</a>
+    <div class="image">
+        <img src="../images/statecollege.jpg" alt="state college" class="imageContainer">
+    </div>
+    <a style="background-color: #6e42e5;display: inline-block; margin-top: 20px;" href="https://goo.gl/maps/VkbkfBUc9tF2">Penn State 主校区</a>
+    <a style="background-color: #6e42e5;display: inline-block; margin-top: 20px;" href="https://goo.gl/maps/6ho3HmhqAXq">宋逸文住处</a>
+
+</div>
+
+<div class="display">
+    <h2>大瀑布：7月27日 - 7月28日 </h2>
+    <h1>Niagra Falls</h1>
+    <p>晚上住在市区以北的地方，以便第二天去大峡谷。酒店：Staybridge Suites Buffalo</p>
+    <a href="https://goo.gl/maps/h1i53FNfTNT2">点此查看酒店地图</a>
+    <div class="image">
+        <img src="../images/niagarafalls.JPG" alt="Niagara Falls" class="imageContainer">
+    </div>
+    <a style="background-color: #ffa100;display: inline-block; margin-top: 20px;" href="https://goo.gl/maps/P4RfrpVfejr">尼亚加拉瀑布
+        Niagara Falls</a>
+    <a style="background-color: #ffa100;display: inline-block; margin-top: 20px;" href="https://www.google.ro/maps/place/Cave+of+the+Winds/@43.0822096,-79.0723406,17z/data=!4m5!3m4!1s0x0:0xee3bac8a5c27d405!8m2!3d43.0822096!4d-79.0708586?hl=zh-CN">Cave of the Winds 瀑布口</a>
+
+</div>
+
+<div class="display">
+    <h2>入住宿舍：7月29日 - 8月1日 </h2>
+    <h1>三天入住，装家具。期间住在宿舍。</h1>
+    <p>将入住Cooper Beech Oakwoood, 29日拿钥匙时间是上午9点后。</p>
+    <a href="https://goo.gl/maps/UWkS72EWUkx">点此查看宿舍地图</a>
+    <div class="image">
+        <img src="../images/cbo.jpg" alt="Cooper Beech Oakwood" class="imageContainer">
+    </div>
+    <a style="background-color: #7f44d9;display: inline-block; margin-top: 20px;" href="https://goo.gl/maps/FRiZygjVrGw">附近的商店</a>
+</div>
+
+<div class="display">
+    <h2>开始南下：8月1日-8月2日 </h2>
+    <h1>Washington D.C.</h1>
+    <p>晚上住在市区以北的地方，以便第二天去大峡谷。酒店：Holiday Inn Express & Suites Alexandria - Fort Belvoir</p>
+    <a href="https://goo.gl/maps/E2TZ98rXPgM2">点此查看酒店地图</a>
+    <div class="image">
+        <img src="../images/dc.PNG" alt="Washington D.C." class="imageContainer">
+    </div>
+    <a style="background-color: #ffa100;display: inline-block; margin-top: 20px;" href="https://goo.gl/maps/kJ25tkKd3MF2">美国白宫 The White House</a>
+    <a style="background-color: #ffa100;display: inline-block; margin-top: 20px;" href="https://goo.gl/maps/Pz3d2XaVYxy">华盛顿纪念碑 Washington Monument</a>
+    <a style="background-color: #ffa100;display: inline-block; margin-top: 20px;" href="https://goo.gl/maps/azJEx9PMK4q">林肯纪念堂 Lincoln Memorial</a>
+    <a style="background-color: #ffa100;display: inline-block; margin-top: 20px;" href="https://goo.gl/maps/MtrNr1p38BE2">U.S. Capitol</a>
+</div>
+
+<div class="display">
+    <h2>去主校：8月3日 </h2>
+    <h1>State College</h1>
+    <p>晚上住在市区以北的地方，以便第二天去大峡谷。酒店：Holiday Inn Express & Suites Clearfield </p>
+    <a href="https://goo.gl/maps/sxEcfWbiRWp">点此查看酒店地图</a>
+    <div class="image">
+        <img src="../images/statecollege.jpg" alt="state college" class="imageContainer">
+    </div>
+    <a style="background-color: #6e42e5;display: inline-block; margin-top: 20px;" href="https://goo.gl/maps/VkbkfBUc9tF2">Penn State 主校区</a>
+    <a style="background-color: #6e42e5;display: inline-block; margin-top: 20px;" href="https://goo.gl/maps/6ho3HmhqAXq">宋逸文住处</a>
+
+</div>
+<div class="display">
+    <h2>想知道网页是如何制作的？</h2>
+    <h1>此网页开源</h1>
+    <p>不用担心，所有代码、图片、素材，均已上传至GitHub。</p>
+    <div class="image">
+        <img class="imageContainer" src="../images/github.png" alt="Github">
+    </div>
+    <a class="message" href="https://github.com/chaijiaming/bankscurrency" style="background: #7f44d9; max-width: 300px">Fork参与项目</a>
+    <a class="message" href="https://github.com/chaijiaming" style="background: #039be5; max-width: 300px">在GitHub上关注开发者</a>
+    <p class="stat">github.com</p>
+</div>
+<div class="display">
+    <h2 class="image-h2">扫一扫，加开发者微信！</h2>
+    <div class="image">
+        <img src="../images/webwxgetmsgimg.jpg" alt="微信二维码" class="imageContainer">
+    </div>
+</div>
+<p id="load">正在载入网页SDK&hellip;</p>
+<p class="stat">版权所有©2017 开发者保留所有权利</p>
+
+
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-102309503-1', 'auto');
+    ga('send', 'pageview');
+
+</script>
+<script>
+    function closeMessageBlock() {
+        var x = document.getElementsByClassName("message");
+        x[0].classList.toggle('fade');
+        setTimeout(setDisplayNone,1000);
+        function setDisplayNone() {
+            x[0].classList.toggle('display-none')
+        }
+    }
+</script>
+<script>
+    let ctx = document.getElementById('myChart').getContext('2d');
+    let chart = new Chart(ctx, {
+        type: 'line',
+        data: {
+            labels: ["一月", " ", " ", " ", " ", " ", "七月"],
+            datasets: [{
+                label: "美金/人民币",
+                backgroundColor: 'rgb(55, 99, 132)',
+                borderColor: 'rgb(55, 99, 132)',
+                data: [6.943, 6.879, 6.881, 6.889, 6.893, 6.805, 6.779],
+            }]
+        },
+        options: {}
+    });
+</script>
+</body>
+</html>
